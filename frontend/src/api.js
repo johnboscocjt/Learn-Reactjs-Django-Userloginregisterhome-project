@@ -3,7 +3,7 @@ import { ACCESS_TOKEN } from "./constants";
 
 // url does not match with django default port, which is the url we need when in deployment for both front end and backend, connection for backend needed in the deployment environment
 // when running locally dont use this: it will give you error like 404, 400
-const apiUrl = "/choreo-apis/djangoreact-tutorial/backend/v1";
+const apiUrl = "/choreo-apis/backend-3959763937:8000";
 
 // on local environment use the following:
 // const api = axios.create({
